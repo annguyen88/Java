@@ -1,3 +1,10 @@
+/* 
+
+Author: Andrew Nguyen
+Date: July 6, 2015
+
+*/
+
 import java.util.*;
 
 public class Reverse {
