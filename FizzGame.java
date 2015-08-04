@@ -3,6 +3,20 @@
 
 
 class FizzGame{
+       public static void alternateSolution() {
+              for (int num; num <=100; num++) {
+                     switch (num) {
+                            case num % 3 == 0:
+                                   System.out.print("Fizz");
+                     
+                            case num % 5 == 0:
+                                   System.out.print("Buzz\n");
+                                   break;
+                            default:
+                                   System.out.print(num + "\n")
+                     }
+              }
+       }
        public static void main(String [] args) {
                  for(int i = 1; i <= 100; i++) {
                  	if(i % 3 == 0 && i % 5 == 0){
